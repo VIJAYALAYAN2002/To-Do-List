@@ -1,0 +1,137 @@
+:root {
+    --dark:#37;
+    --pink:#EC4899;
+    --purple:#8B5Cf6;
+  
+}
+* { font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background:"Image\pikrepo (3).jpg";
+    height: 100%;
+    background-color: #f2ebeb;
+    box-sizing: border-box;
+}
+
+h1 {
+	color: #fff;
+	font-size: 3rem;
+	font-weight: 50;
+	text-align: center;
+	margin: 1rem; 
+}	
+.title{
+	color: rgb(13, 207, 129);
+	text-transform: uppercase;
+	font-weight: 800;
+}
+.title1{
+	color:#fff;
+	border-bottom:2px solid#fff;
+	text-transform: uppercase;
+	font-weight: 800;
+}
+h5 {
+	color: #090909;
+	font-size: 1rem;
+	font-weight: 50;
+	text-align: center;
+	margin: 1rem; 
+}	
+.title2{
+	color:#ffffff;
+	font-family: 'Times New Roman', Times, serif;
+	text-transform: uppercase;
+	font-weight: 800;
+	text-align: center;
+}
+
+
+.inputDiv{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.input{
+    padding: 0.5rem 1rem;
+	background-color:transparent;
+	color: #fff;
+    outline: none;
+    border: none;
+    height: 50px;
+    border-radius: 20px;
+    width: 350px;
+    margin: 0.25rem;
+    transition: .5s;
+    font-size: 1.15rem;
+}
+
+.add{
+	outline: none;
+    border: none;
+    height: 50px;
+    border-radius: 10px;
+    width: 50px;
+    background-color:rgb(6, 6, 6);
+    color: white;
+    cursor: pointer;
+    transition: .10s;
+    margin: 0.25rem;
+}
+
+.add:hover{
+	opacity: 0.7;
+}
+
+.container{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	margin-top: 2rem;
+}
+
+.item{
+	padding: 0.5rem;
+	background-color: rgb(52, 51, 51);
+	background: color 4px solid rgb(0, 0, 0);
+	border-bottom: 4px solid #fff;
+	margin-bottom: 1.5rem;
+	border-radius: 25px;
+}
+
+.item_input{
+	background:none;
+	outline: none;
+	border: none;
+	color:#fff;
+	font-size: 1.4rem;
+	width: 245px;
+}
+
+.edit{
+	background: none;
+	outline: none;
+	border: none;
+	color: #fff ;
+	font-size: small;
+	font-family: Arial, Helvetica, sans-serif;
+	margin: 0 0.5rem;
+	cursor: pointer;
+}
+
+.remove{
+	background: none;
+	outline: none;
+	border: none;
+    color: rgb(255, 0, 0);
+	font-size: small;
+	font-family: Arial, Helvetica, sans-serif;
+	cursor: pointer;
+}
